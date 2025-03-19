@@ -336,14 +336,14 @@ main.container {
 /* Add custom padding for content sections */
 .content-padding {
     padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    /* padding-right: 1rem !important; */
 }
 
 /* Larger padding for desktop screens */
 @media (min-width: 768px) {
     .content-padding {
-        padding-left: 4rem !important;
-        padding-right: 4rem !important;
+        padding-left: 7rem !important;
+        /* padding-right: 4rem !important; */
     }
 }
 
