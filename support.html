@@ -1,276 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Support - Pushup Viking</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/icon/256.png" alt="Pushup Viking Icon" height="32" class="me-2 app-icon">
-                Pushup Viking
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="marketing.html">Marketing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="support.html">Support</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/icon/256.png"
+            alt="Pushup Viking Icon"
+            height="32"
+            class="me-2 app-icon"
+          />
+          Pushup Viking
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marketing.html">Marketing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="support.html">Support</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <main class="container">
-        <!-- Hero Section -->
-        <section class="hero text-center py-5">
-            <div class="content-padding">
-                <img src="images/icon/512.png" alt="Pushup Viking Icon" height="128" class="mb-4 app-icon">
-                <h1 class="display-4 mb-4">How Can We Help You?</h1>
-                <p class="lead mb-5">Find answers to common questions and get support for your Pushup Viking journey</p>
+      <!-- Hero Section -->
+      <section class="hero text-center py-5">
+        <div class="content-padding">
+          <img
+            src="images/icon/512.png"
+            alt="Pushup Viking Icon"
+            height="128"
+            class="mb-4 app-icon"
+          />
+          <h1 class="display-4 mb-4">How Can We Help You?</h1>
+          <p class="lead mb-5">
+            Find answers to common questions and get support for your Pushup
+            Viking journey
+          </p>
+        </div>
+      </section>
+
+      <!-- Quick Links -->
+      <section class="quick-links py-5">
+        <div class="content-padding">
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+              <div class="card h-100 feature-card">
+                <div class="card-body text-center">
+                  <i
+                    class="bi bi-question-circle display-4 text-primary mb-3"
+                  ></i>
+                  <h3 class="card-title">FAQs</h3>
+                  <p class="card-text">
+                    Find answers to frequently asked questions about the app.
+                  </p>
+                  <a href="#faqAccordion" class="btn btn-outline-primary">
+                    <i class="bi bi-arrow-down-circle me-2"></i>View FAQs
+                  </a>
+                </div>
+              </div>
             </div>
-        </section>
-
-        <!-- Quick Links -->
-        <section class="quick-links py-5">
-            <div class="content-padding">
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-5">
-                        <div class="card h-100 feature-card">
-                            <div class="card-body text-center">
-                                <i class="bi bi-question-circle display-4 text-primary mb-3"></i>
-                                <h3 class="card-title">FAQs</h3>
-                                <p class="card-text">Find answers to frequently asked questions about the app.</p>
-                                <a href="#faqAccordion" class="btn btn-outline-primary">
-                                    <i class="bi bi-arrow-down-circle me-2"></i>View FAQs
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="card h-100 feature-card">
-                            <div class="card-body text-center">
-                                <i class="bi bi-envelope display-4 text-primary mb-3"></i>
-                                <h3 class="card-title">Contact Us</h3>
-                                <p class="card-text">Need more help? Our support team is here for you.</p>
-                                <a href="mailto:support@pushupviking.app" class="btn btn-outline-primary">
-                                    <i class="bi bi-envelope me-2"></i>Email Support
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-5">
+              <div class="card h-100 feature-card">
+                <div class="card-body text-center">
+                  <i class="bi bi-envelope display-4 text-primary mb-3"></i>
+                  <h3 class="card-title">Contact Us</h3>
+                  <p class="card-text">
+                    Need more help? Our support team is here for you.
+                  </p>
+                  <a
+                    href="mailto:support@pushupviking.app"
+                    class="btn btn-outline-primary"
+                  >
+                    <i class="bi bi-envelope me-2"></i>Email Support
+                  </a>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- FAQs -->
-        <section class="faqs py-5">
-            <h2 class="text-center mb-5">
-                <i class="bi bi-question-circle-fill text-primary me-2"></i>Frequently Asked Questions
-            </h2>
-            <div class="accordion" id="faqAccordion">
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                            <i class="bi bi-graph-up me-2"></i>How does the progression system work?
-                        </button>
-                    </h3>
-                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Our progression system is designed to help you improve gradually:
-                            <ol>
-                                <li>Start with an initial benchmark test to assess your current strength level</li>
-                                <li>The app creates a personalized training plan based on your results</li>
-                                <li>Each workout gradually increases in difficulty</li>
-                                <li>You can adjust the progression rate in settings</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqBenefits">
-                            <i class="bi bi-heart-pulse me-2"></i>What are the benefits of doing push-ups regularly?
-                        </button>
-                    </h3>
-                    <div id="faqBenefits" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Push-ups are one of the most effective bodyweight exercises with numerous benefits:
-                            <ul>
-                                <li><strong>Full-body workout:</strong> Engages multiple muscle groups including chest, shoulders, triceps, and core</li>
-                                <li><strong>Improved strength:</strong> Builds upper body and core strength efficiently</li>
-                                <li><strong>Better posture:</strong> Strengthens the muscles that support good posture</li>
-                                <li><strong>Cardiovascular health:</strong> Helps improve heart health when done with intensity</li>
-                                <li><strong>Increased bone density:</strong> Provides resistance that strengthens bones</li>
-                                <li><strong>Joint health:</strong> Stabilizes the shoulder joints and enhances mobility</li>
-                                <li><strong>Convenience:</strong> Requires no equipment and can be done anywhere</li>
-                                <li><strong>Adaptability:</strong> Can be modified to suit any fitness level</li>
-                                <li><strong>Functional fitness:</strong> Improves performance in daily activities</li>
-                            </ul>
-                            <p class="mb-0">Regular push-up training with Pushup Viking helps you achieve these benefits through structured progression and consistent practice.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                            <i class="bi bi-gear me-2"></i>How can I customize my workouts?
-                        </button>
-                    </h3>
-                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            You can customize your workouts in several ways:
-                            <ul>
-                                <li>Adjust the number of sets (1-10)</li>
-                                <li>Modify rest periods between sets</li>
-                                <li>Choose between automatic or manual progression</li>
-                                <li>Set up custom reminders and notifications</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                            <i class="bi bi-credit-card me-2"></i>How do I restore my purchase?
-                        </button>
-                    </h3>
-                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            To restore your purchase:
-                            <ol>
-                                <li>Open the app</li>
-                                <li>Go to Settings</li>
-                                <li>Tap "Restore Purchase"</li>
-                                <li>Enter your Apple ID password if prompted</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                            <i class="bi bi-trophy me-2"></i>What are the different types of awards I can earn?
-                        </button>
-                    </h3>
-                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Pushup Viking offers three types of awards:
-                            <ul>
-                                <li><strong>Strength Awards:</strong> Earned by reaching specific push-up milestones (100, 500, 1000, etc.)</li>
-                                <li><strong>Consistency Awards:</strong> Earned by maintaining workout streaks (1 week, 2 weeks, 10 weeks, 1 year)</li>
-                                <li><strong>Special Awards:</strong> Earned for unique achievements like early morning workouts, night workouts, or completing special challenges</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                            <i class="bi bi-graph-up-arrow me-2"></i>How do I track my progress?
-                        </button>
-                    </h3>
-                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            The app provides several ways to track your progress:
-                            <ul>
-                                <li>Visual progress graphs showing your push-up counts over time</li>
-                                <li>Weekly and monthly statistics</li>
-                                <li>Achievement tracking with detailed progress towards each award</li>
-                                <li>Personal best records for different workout types</li>
-                                <li>Export your data for external analysis (Premium feature)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
-                            <i class="bi bi-calendar-x me-2"></i>What happens if I miss a workout?
-                        </button>
-                    </h3>
-                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Missing a workout won't set you back significantly. The app is designed to be flexible:
-                            <ul>
-                                <li>Your streak will reset, but you can start a new one</li>
-                                <li>Your strength progress is preserved</li>
-                                <li>You can adjust your workout schedule to better fit your routine</li>
-                                <li>The app will help you get back on track with appropriate workout recommendations</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
-                            <i class="bi bi-wifi-off me-2"></i>Can I use the app without an internet connection?
-                        </button>
-                    </h3>
-                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Yes! Pushup Viking works offline:
-                            <ul>
-                                <li>All core features are available without internet</li>
-                                <li>Your workouts and progress are saved locally</li>
-                                <li>Data syncs automatically when you're back online</li>
-                                <li>You can still earn awards and track progress offline</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <!-- FAQs -->
+      <section class="faqs py-5">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-question-circle-fill text-primary me-2"></i>Frequently
+          Asked Questions
+        </h2>
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+              >
+                <i class="bi bi-graph-up me-2"></i>How does the progression
+                system work?
+              </button>
+            </h3>
+            <div
+              id="faq1"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Our progression system is designed to help you improve
+                gradually:
+                <ol>
+                  <li>
+                    Start with an initial benchmark test to assess your current
+                    strength level
+                  </li>
+                  <li>
+                    The app creates a personalized training plan based on your
+                    results
+                  </li>
+                  <li>Each workout gradually increases in difficulty</li>
+                  <li>You can adjust the progression rate in settings</li>
+                </ol>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Contact Section -->
-        <section class="contact bg-light py-5">
-            <h2 class="text-center mb-5">
-                <i class="bi bi-envelope-fill text-primary me-2"></i>Need More Help?
-            </h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <p class="lead mb-4">Our support team is here to help you succeed in your push-up journey.</p>
-                    <a href="mailto:support@pushupviking.app" class="btn btn-primary btn-lg">
-                        <i class="bi bi-envelope text-white me-2"></i>Contact Support
-                    </a>
-                </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faqBenefits"
+              >
+                <i class="bi bi-heart-pulse me-2"></i>What are the benefits of
+                doing push-ups regularly?
+              </button>
+            </h3>
+            <div
+              id="faqBenefits"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Push-ups are one of the most effective bodyweight exercises with
+                numerous benefits:
+                <ul>
+                  <li>
+                    <strong>Full-body workout:</strong> Engages multiple muscle
+                    groups including chest, shoulders, triceps, and core
+                  </li>
+                  <li>
+                    <strong>Improved strength:</strong> Builds upper body and
+                    core strength efficiently
+                  </li>
+                  <li>
+                    <strong>Better posture:</strong> Strengthens the muscles
+                    that support good posture
+                  </li>
+                  <li>
+                    <strong>Cardiovascular health:</strong> Helps improve heart
+                    health when done with intensity
+                  </li>
+                  <li>
+                    <strong>Increased bone density:</strong> Provides resistance
+                    that strengthens bones
+                  </li>
+                  <li>
+                    <strong>Joint health:</strong> Stabilizes the shoulder
+                    joints and enhances mobility
+                  </li>
+                  <li>
+                    <strong>Convenience:</strong> Requires no equipment and can
+                    be done anywhere
+                  </li>
+                  <li>
+                    <strong>Adaptability:</strong> Can be modified to suit any
+                    fitness level
+                  </li>
+                  <li>
+                    <strong>Functional fitness:</strong> Improves performance in
+                    daily activities
+                  </li>
+                </ul>
+                <p class="mb-0">
+                  Regular push-up training with Pushup Viking helps you achieve
+                  these benefits through structured progression and consistent
+                  practice.
+                </p>
+              </div>
             </div>
-        </section>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+              >
+                <i class="bi bi-gear me-2"></i>How can I customize my workouts?
+              </button>
+            </h3>
+            <div
+              id="faq2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                You can customize your workouts in several ways:
+                <ul>
+                  <li>Adjust the number of sets (1-10)</li>
+                  <li>Modify rest periods between sets</li>
+                  <li>Choose between automatic or manual progression</li>
+                  <li>Set up custom reminders and notifications</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+              >
+                <i class="bi bi-credit-card me-2"></i>How do I restore my
+                purchase?
+              </button>
+            </h3>
+            <div
+              id="faq3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                To restore your purchase:
+                <ol>
+                  <li>Open the app</li>
+                  <li>Go to Settings</li>
+                  <li>Tap "Restore Purchase"</li>
+                  <li>Enter your Apple ID password if prompted</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+              >
+                <i class="bi bi-trophy me-2"></i>What are the different types of
+                awards I can earn?
+              </button>
+            </h3>
+            <div
+              id="faq4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Pushup Viking offers three types of awards:
+                <ul>
+                  <li>
+                    <strong>Strength Awards:</strong> Earned by reaching
+                    specific push-up milestones (100, 500, 1000, etc.)
+                  </li>
+                  <li>
+                    <strong>Consistency Awards:</strong> Earned by maintaining
+                    workout streaks (1 week, 2 weeks, 10 weeks, 1 year)
+                  </li>
+                  <li>
+                    <strong>Special Awards:</strong> Earned for unique
+                    achievements like early morning workouts, night workouts, or
+                    completing special challenges
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+              >
+                <i class="bi bi-graph-up-arrow me-2"></i>How do I track my
+                progress?
+              </button>
+            </h3>
+            <div
+              id="faq5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                The app provides several ways to track your progress:
+                <ul>
+                  <li>
+                    Visual progress graphs showing your push-up counts over time
+                  </li>
+                  <li>Weekly and monthly statistics</li>
+                  <li>
+                    Achievement tracking with detailed progress towards each
+                    award
+                  </li>
+                  <li>Personal best records for different workout types</li>
+                  <li>
+                    Export your data for external analysis (Premium feature)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq6"
+              >
+                <i class="bi bi-calendar-x me-2"></i>What happens if I miss a
+                workout?
+              </button>
+            </h3>
+            <div
+              id="faq6"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Missing a workout won't set you back significantly. The app is
+                designed to be flexible:
+                <ul>
+                  <li>Your streak will reset, but you can start a new one</li>
+                  <li>Your strength progress is preserved</li>
+                  <li>
+                    You can adjust your workout schedule to better fit your
+                    routine
+                  </li>
+                  <li>
+                    The app will help you get back on track with appropriate
+                    workout recommendations
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq7"
+              >
+                <i class="bi bi-wifi-off me-2"></i>Can I use the app without an
+                internet connection?
+              </button>
+            </h3>
+            <div
+              id="faq7"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Yes! Pushup Viking works offline:
+                <ul>
+                  <li>All core features are available without internet</li>
+                  <li>Your workouts and progress are saved locally</li>
+                  <li>Data syncs automatically when you're back online</li>
+                  <li>You can still earn awards and track progress offline</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact bg-light py-5">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-envelope-fill text-primary me-2"></i>Need More Help?
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <p class="lead mb-4">
+              Our support team is here to help you succeed in your push-up
+              journey.
+            </p>
+            <a
+              href="mailto:support@pushupviking.app"
+              class="btn btn-primary btn-lg"
+            >
+              <i class="bi bi-envelope text-white me-2"></i>Contact Support
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-dark text-light py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; 2024 Pushup Viking. All rights reserved.</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="copyright.html">Copyright Information</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2024 Pushup Viking. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="copyright.html">Copyright Information</a>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html> 
+  </body>
+</html>
