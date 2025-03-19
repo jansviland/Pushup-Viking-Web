@@ -1,0 +1,437 @@
+/* Custom styles for PushupTrainer website */
+
+/* General styles */
+:root {
+    --primary-color: #FF9500;  /* Orange from the app */
+    --primary-dark: #E68A00;
+    --primary-light: #FFA533;
+    --secondary-color: #007AFF;  /* iOS blue */
+    --success-color: #34C759;  /* iOS green */
+    --warning-color: #FF9500;  /* iOS orange */
+    --danger-color: #FF3B30;  /* iOS red */
+    --text-color: #1C1C1E;  /* iOS dark text */
+    --text-secondary: #8E8E93;  /* iOS secondary text */
+    --background-light: #F2F2F7;  /* iOS light background */
+    --card-background: #FFFFFF;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    padding: 2rem 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--card-background) !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    color: var(--text-color) !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+}
+
+.nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: var(--card-background);
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+}
+
+/* Features section */
+.features .card {
+    margin-bottom: 1.5rem;
+}
+
+.features h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials */
+.testimonials .card {
+    background-color: #f8f9fa;
+}
+
+.testimonials .blockquote-footer {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+/* Footer */
+footer {
+    flex-shrink: 0;
+    background-color: var(--card-background) !important;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* FAQ section */
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 149, 0, 0.25);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+
+    /* Adjust content spacing on mobile */
+    .hero .row {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    /* Adjust content padding on mobile */
+    .content-padding {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    /* Add spacing between content and images on mobile */
+    .hero .col-md-6:last-child {
+        margin-top: 2rem;
+    }
+
+    /* Ensure images don't touch edges on mobile */
+    .hero .img-fluid {
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
+
+/* Utility classes */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* App icon styling */
+.app-icon {
+    border-radius: 22.5%;  /* iOS app icon corner radius */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Hero section enhancement */
+.hero {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 3rem 1rem;
+}
+
+/* Feature cards enhancement */
+.feature-card {
+    border-left: 4px solid var(--primary-color);
+}
+
+/* Testimonial cards enhancement */
+.testimonial-card {
+    background: linear-gradient(135deg, var(--card-background) 0%, var(--background-light) 100%);
+}
+
+/* Custom section backgrounds */
+.bg-light {
+    background-color: var(--background-light) !important;
+}
+
+/* Icon colors */
+.bi {
+    color: var(--primary-color);
+}
+
+/* Progress indicators */
+.progress {
+    background-color: var(--background-light);
+    border-radius: 8px;
+}
+
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
+/* Custom list styling */
+.list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+.list-unstyled li i {
+    color: var(--success-color);
+}
+
+/* Card hover effects */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Custom button styles */
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+/* Section spacing */
+section {
+    padding: 2rem 0;
+}
+
+/* Add a specific class for compact sections like those on the copyright page */
+.compact-section {
+    padding: 0.75rem 0;
+}
+
+/* For pages that need the original spacing, use the spacious-section class */
+.spacious-section {
+    padding: 4rem 0;
+}
+
+/* Custom heading styles */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+/* Custom link styling */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--primary-dark);
+    text-decoration: none;
+}
+
+/* Remove gradient background and shadow from main container */
+main.container {
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+/* Add custom padding for content sections */
+.content-padding {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Larger padding for desktop screens */
+@media (min-width: 768px) {
+    .content-padding {
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;
+    }
+}
+
+/* Enhanced Download Button */
+.download-button {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(255, 149, 0, 0.3);
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    border: none;
+    position: relative;
+    overflow: hidden;
+    animation: pulse 2s infinite;
+}
+
+.download-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(255, 149, 0, 0.4);
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+}
+
+.download-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px rgba(255, 149, 0, 0.3);
+}
+
+.download-button i {
+    font-size: 1.5rem;
+}
+
+/* Responsive adjustments for download button on mobile */
+@media (max-width: 576px) {
+    .download-button {
+        font-size: 0.95rem;
+        padding: 0.75rem 1.25rem;
+    }
+    
+    .download-button i {
+        font-size: 1.1rem;
+    }
+}
+
+/* Pulse Animation for buttons */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.7);
+  }
+  
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(13, 110, 253, 0);
+  }
+  
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 1.5s infinite;
+}
+
+/* Optional: Stop animation on hover for better UX */
+.pulse-animation:hover {
+  animation: none;
+}
+
+/* Very small screen adjustments */
+@media (max-width: 360px) {
+    .download-button {
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+    }
+    
+    .download-button i {
+        font-size: 1rem;
+    }
+    
+    /* Optional: Hide "on App Store" for very small screens */
+    .download-text {
+        display: inline;
+    }
+}
+
+/* Override section padding for the copyright page */
+.copyright-page section {
+    padding: 0.75rem 0;
+} 

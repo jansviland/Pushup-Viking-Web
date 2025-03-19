@@ -1,0 +1,39 @@
+
+award.special.pushup-master
+award.special.first-pushup
+
+
+award.consistency.2-days
+
+award.consistency.1-weeks
+award.consistency.2-weeks
+award.consistency.3-weeks
+
+
+Other strength categories: 
+
+10 pushups in one rep!
+20 pushups in one rep!
+30 pushups in one rep!
+40 pushups in one rep!
+
+30 pushups in one workout
+50 pushups in one workout
+100 pushups in one workout!
+
+
+
+award.strength.100-pushups
+award.strength.250-pushups
+award.strength.500-pushups
+
+award.strength.10k-pushups
+
+award.strength.1-mill-pushups
+
+
+
+https://chatgpt.com/c/67b8a29c-d854-8005-bad0-5521353fd8f7
+
+
+https://cloudconvert.com/webp-to-png
